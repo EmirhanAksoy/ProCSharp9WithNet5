@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NarrowingWideningDataType",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfElsePatternMatching", "IfElsePatternMatching\IfElsePatternMatching.csproj", "{D367D0D8-9E5D-4FB0-A2D2-92705FA63E39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchExpression", "SwitchExpression\SwitchExpression.csproj", "{9168F258-FC70-488D-ADC2-CCF61FA49CFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchExpression", "SwitchExpression\SwitchExpression.csproj", "{9168F258-FC70-488D-ADC2-CCF61FA49CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCasePatternMatching", "SwitchCasePatternMatching\SwitchCasePatternMatching.csproj", "{61B32630-067C-4538-AE30-C052E24DE6F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{9168F258-FC70-488D-ADC2-CCF61FA49CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9168F258-FC70-488D-ADC2-CCF61FA49CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9168F258-FC70-488D-ADC2-CCF61FA49CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B32630-067C-4538-AE30-C052E24DE6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B32630-067C-4538-AE30-C052E24DE6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B32630-067C-4538-AE30-C052E24DE6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B32630-067C-4538-AE30-C052E24DE6F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
