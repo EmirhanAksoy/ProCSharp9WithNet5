@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Tutorial.Common.Extensions;
 
 int[] luckyNumbers = new int [] { 1, 2, 3, 4, 5, 6, 7, 8, 9, };
 
@@ -28,9 +28,5 @@ PrintNumbers(luckyNumbers);
 
 Console.WriteLine("----------------------------------");
 
-string [] messages = GetMessageAsArray("Hello my name Loki I am a cat 🐈");
+GetMessageAsArray("Hello my name Loki I am a cat 🐈").Dump();
 
-for (int i = 0; i < messages.Length; i++)
-{
-    Console.WriteLine(messages[i]);
-}
