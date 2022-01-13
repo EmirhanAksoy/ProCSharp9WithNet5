@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StringBuilder\StringBuilder.csproj" />
+    <ProjectReference Include="..\Tutorial.Common\Tutorial.Common.csproj" />
   </ItemGroup>
 
 </Project>

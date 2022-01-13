@@ -31,7 +31,10 @@ var shifts = new string[] { "00.00-12.00", "12.00-24.00" };
 var luckNumbers = new int[3] { 1, 4, 8 };
 
 
+
+
 foreach (var shift in shifts)
 {
     Console.WriteLine($"Shift : {shift}");
 }
+
