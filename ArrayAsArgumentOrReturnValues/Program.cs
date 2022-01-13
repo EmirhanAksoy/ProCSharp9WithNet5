@@ -1,5 +1,6 @@
 ﻿using System;
 using Tutorial.Common.Extensions;
+using Tutorial.Common.Helper;
 
 int[] luckyNumbers = new int [] { 1, 2, 3, 4, 5, 6, 7, 8, 9, };
 
@@ -24,9 +25,13 @@ static string [] GetMessageAsArray(string message)
     return messages;
 }
 
+"As an argument".DumpAsTitle();
+
 PrintNumbers(luckyNumbers);
 
-Console.WriteLine("----------------------------------");
+ConsoleHelper.Seperate();
+
+"As return values".DumpAsTitle();
 
 GetMessageAsArray("Hello my name Loki I am a cat 🐈").Dump();
 
