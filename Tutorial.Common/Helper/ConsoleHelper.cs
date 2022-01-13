@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tutorial.Common.Helper
 {
@@ -14,7 +10,7 @@ namespace Tutorial.Common.Helper
         public static void Seperate()
         {
             Console.WriteLine();
-            Console.WriteLine("------------------------------------------------------");
+            Console.WriteLine("     --------------------  X  ----------------------  X  ----------------");
             Console.WriteLine();
         }
 
