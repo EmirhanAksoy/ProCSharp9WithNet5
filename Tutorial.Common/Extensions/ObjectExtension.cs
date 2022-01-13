@@ -16,5 +16,16 @@ namespace Tutorial.Common.Extensions
         {
             Console.WriteLine(value);
         }
+
+        /// <summary>
+        /// Object extension for print value
+        /// </summary>
+        /// <param name="value"></param>
+        public static void DumpAsTitle(this object value)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"***     {value}     ***");
+            Console.WriteLine();
+        }
     }
 }
