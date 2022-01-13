@@ -51,4 +51,19 @@ for (int i = 1; i <= colors.Length; i++)
 }
 
 
+ConsoleHelper.Seperate();
+
+"Indicies and Range together - BONUS".DumpAsTitle();
+
+Index headIndex = 0;
+
+Index tailIndex = 5;
+
+int[] numericValues = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+Range selectedRange = headIndex..tailIndex;
+
+numericValues[selectedRange].Dump();
+
+
 
