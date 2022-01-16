@@ -4,6 +4,9 @@ using Tutorial.Common.Extensions;
 
 "Local Functions".DumpAsTitle();
 
+
+// Example 1:
+
 static void PrintFullName(string firstName, string middleName, string lastname)
 {
     if (!isValidText(firstName))
@@ -31,24 +34,27 @@ static void PrintFullName(string firstName, string middleName, string lastname)
 
 PrintFullName("Alexander", "Graham", "Bell");
 
-static int GetSum(params int [] numbers)
+
+// Example 2:
+
+static int GetSum(params int[] numbers)
 {
 
-    if(Sum(numbers) > 0)
+    if (Sum(numbers) > 0)
     {
-        // Do someting
+        // Do something
 
         Console.WriteLine("Sum is greater than zero.");
     }
-    
-    return Sum(numbers) ;
+
+    return Sum(numbers);
 
     /// <summary>
     /// Local function
     /// </summary>
     int Sum(params int[] numbers)
     {
-       return  numbers.Sum(x => x);   
+        return numbers.Sum(x => x);
     }
 }
 
