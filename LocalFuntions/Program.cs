@@ -26,7 +26,7 @@ static void PrintFullName(string firstName, string middleName, string lastname)
     }
 
     /// <summary>
-    /// Local function with lamda expression
+    /// Local function with lambda expression
     /// </summary>
     bool isValidText(string text) => !string.IsNullOrEmpty(text);
 }
