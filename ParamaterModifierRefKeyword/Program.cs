@@ -8,8 +8,8 @@ using Tutorial.Common.Helper;
 
 /// <summary>
 /// Strings are reference type but it's pass by value default in C#
-/// We can pass it by reference with using ref keyword
-/// No need to assing in caller method like out keyword beacuse we're passing value to an existing variable
+/// We can pass it by reference with using the ref keyword
+/// No need to assing value to ref variable in caller method like out keyword beacuse we're passing value to an existing variable
 /// </summary>
 static void SwapCatsByReference(ref string bigCat, ref string smallCat)
 {
