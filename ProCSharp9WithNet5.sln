@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalFuntions", "LocalFunti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticLocalFunctions", "StaticLocalFunctions\StaticLocalFunctions.csproj", "{374AEE4B-B33F-4411-89DF-2A6C253A431F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterModifierOutKeyword", "ParameterModifierOutKeyword\ParameterModifierOutKeyword.csproj", "{1E180562-3A3F-4A40-8C55-60359CB77F7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParameterModifierOutKeyword", "ParameterModifierOutKeyword\ParameterModifierOutKeyword.csproj", "{1E180562-3A3F-4A40-8C55-60359CB77F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamaterModifierRefKeyword", "ParamaterModifierRefKeyword\ParamaterModifierRefKeyword.csproj", "{7A855994-BF8E-47AD-96F4-724B6685CE52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{1E180562-3A3F-4A40-8C55-60359CB77F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E180562-3A3F-4A40-8C55-60359CB77F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E180562-3A3F-4A40-8C55-60359CB77F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A855994-BF8E-47AD-96F4-724B6685CE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A855994-BF8E-47AD-96F4-724B6685CE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A855994-BF8E-47AD-96F4-724B6685CE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A855994-BF8E-47AD-96F4-724B6685CE52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
