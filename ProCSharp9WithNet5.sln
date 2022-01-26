@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamedArguments", "NamedArgu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverloading", "MethodOverloading\MethodOverloading.csproj", "{6F1295F2-A5C0-4ADE-8CE4-1E8E6FBCB168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{7CE7CF4B-F540-422F-922D-B12F0C83795F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums\Enums.csproj", "{7CE7CF4B-F540-422F-922D-B12F0C83795F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitwiseOperations", "BitwiseOperations\BitwiseOperations.csproj", "{F809ECE1-A44A-4DA1-8B9D-E8F1F85C64DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{7CE7CF4B-F540-422F-922D-B12F0C83795F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE7CF4B-F540-422F-922D-B12F0C83795F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE7CF4B-F540-422F-922D-B12F0C83795F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F809ECE1-A44A-4DA1-8B9D-E8F1F85C64DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F809ECE1-A44A-4DA1-8B9D-E8F1F85C64DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F809ECE1-A44A-4DA1-8B9D-E8F1F85C64DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F809ECE1-A44A-4DA1-8B9D-E8F1F85C64DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
