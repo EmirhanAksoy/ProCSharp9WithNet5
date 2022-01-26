@@ -14,7 +14,8 @@ namespace Tutorial.Common.Extensions
         /// <param name="value"></param>
         public static void Dump(this object value)
         {
-            Console.WriteLine(value);
+            Console.WriteLine($"     {value}");
+            Console.WriteLine();
         }
 
         /// <summary>
