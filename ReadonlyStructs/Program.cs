@@ -4,7 +4,7 @@ using Tutorial.Common.Helper;
 
 namespace ReadonlyStructs
 {
-    public class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
