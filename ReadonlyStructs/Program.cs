@@ -12,6 +12,7 @@ namespace ReadonlyStructs
 
             EmailConfig yandexConfig = new EmailConfig("smpt.yandex.com", 256, "x@yandex.com", "123*_33sdDF");
             EmailConfig googleConfig = new EmailConfig("smpt.google.com", 25, "x@gmail.com", "123*_33sdDF");
+            Circle circle= new Circle(5);
 
             //Cannot assing a value (read-only) ,to check uncomment
             //yandexConfig.EmailAddress = "y@yandex.com";
@@ -19,6 +20,13 @@ namespace ReadonlyStructs
             yandexConfig.Display();
             ConsoleHelper.Seperate();
             googleConfig.Display();
+            ConsoleHelper.Seperate();
+            "Area :".Dump();
+            circle.GetArea().Dump();
+            "Circumference :".Dump();
+            circle.GetCircumference().Dump();
+            "PI (Readonly)".Dump();
+            circle.PI.Dump();
         }
     }
 }
@@ -55,3 +63,24 @@ readonly struct EmailConfig
     }
 
 }
+
+/// <summary>
+/// We can also use readonly members instead of making struct readonly
+/// </summary>
+struct Circle
+{
+    public readonly double PI;
+    public int R;
+
+    public Circle(int r)
+    {
+        PI = Math.PI;
+        R = r;
+    }
+
+    public double GetArea() => PI * Math.Pow(R,2);
+    public double GetCircumference() => PI * 2 * R;
+
+
+}
+
