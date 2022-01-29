@@ -69,6 +69,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseOperations", "Bitwis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structures", "Structures\Structures.csproj", "{83F585A6-43B3-47AA-B68E-AAFDF7A0A090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadonlyStructs", "ReadonlyStructs\ReadonlyStructs.csproj", "{3F873284-F837-49BC-B9D0-C031713FD05E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{83F585A6-43B3-47AA-B68E-AAFDF7A0A090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F585A6-43B3-47AA-B68E-AAFDF7A0A090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F585A6-43B3-47AA-B68E-AAFDF7A0A090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F873284-F837-49BC-B9D0-C031713FD05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F873284-F837-49BC-B9D0-C031713FD05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F873284-F837-49BC-B9D0-C031713FD05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F873284-F837-49BC-B9D0-C031713FD05E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

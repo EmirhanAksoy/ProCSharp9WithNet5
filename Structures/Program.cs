@@ -3,7 +3,7 @@ using Tutorial.Common.Extensions;
 
 namespace Structures
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
