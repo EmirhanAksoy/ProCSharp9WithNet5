@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Numerics;
+using Tutorial.Common.Extensions;
+using Tutorial.Common.Helper;
 
+"Basic Data Types".DumpAsTitle();
 
 // With initial value
 int a = 0;
 
-Console.WriteLine("=> Inital value ! {0}", a);
+$"=> Inital value ! {a}".Dump();
 
 // With default keyword
 int number = default;
@@ -23,17 +26,17 @@ char character2 = new();
 string name = "Emirhan";
 
 
-Console.WriteLine("=>Default keyword for {0} is equal {1}", number.GetType(), number);
-Console.WriteLine("=>Default keyword for {0} is equal {1}", date.GetType(), date);
-Console.WriteLine("=>Default keyword for {0} is equal {1}", character.GetType(), character);
+$"=>Default keyword for {number.GetType()} is equal {number}".Dump();
+$"=>Default keyword for {date.GetType()} is equal {date}".Dump();
+$"=>Default keyword for {character.GetType()} is equal {character}".Dump();
 
-Console.WriteLine("--------------------------------------------");
+ConsoleHelper.Seperate();
 
-Console.WriteLine("=>Default contructor for {0} is equal {1}", number2.GetType(), number);
-Console.WriteLine("=>Default contructor for {0} is equal {1}", date2.GetType(), date);
-Console.WriteLine("=>Default contructor for {0} is equal {1}", character2.GetType(), character);
+$"=>Default contructor for {number2.GetType()} is equal {number}".Dump();
+$"=>Default contructor for {date2.GetType()} is equal {date}".Dump();
+$"=>Default contructor for {character2.GetType()} is equal {character}".Dump();
 
-Console.WriteLine("--------------------------------------------");
+ConsoleHelper.Seperate();
 
 //These methods drived from System.Object
 number.GetType();
@@ -41,7 +44,7 @@ number.ToString();
 number.GetHashCode();
 number.Equals(34);
 
-Console.WriteLine("--------------------------------------------");
+ConsoleHelper.Seperate();
 
 // Numerical data types 
 
@@ -51,14 +54,14 @@ Console.WriteLine("=> Double epsilon : {0}", double.Epsilon);
 Console.WriteLine("=> Positive infinity : {0}", double.PositiveInfinity);
 Console.WriteLine("=> Negative infinity : {0}", double.NegativeInfinity);
 
-Console.WriteLine("--------------------------------------------");
+ConsoleHelper.Seperate();
 
 // Boolean 
 
 Console.WriteLine("=> Boolean False String : {0}", Boolean.FalseString);
 Console.WriteLine("=> Boolean False String : {0}", Boolean.TrueString);
 
-Console.WriteLine("--------------------------------------------");
+ConsoleHelper.Seperate();
 
 // Textual data types
 
@@ -67,7 +70,7 @@ Console.WriteLine("=> Char IsLetter : {0}", char.IsLetter('2'));
 Console.WriteLine("=> Char IsWhiteSpace : {0}", char.IsWhiteSpace("asdasd a", 6));
 Console.WriteLine("=> Char IsPunctuation : {0}", char.IsPunctuation('?'));
 
-Console.WriteLine("--------------------------------------------");
+ConsoleHelper.Seperate();
 
 // DateTime and TimeSpan
 
@@ -76,7 +79,7 @@ Console.WriteLine($"TimeSpan is {new TimeSpan(4, 30, 0)}");
 Console.WriteLine($"Subtract 15 from time span {new TimeSpan(4, 30, 0).Subtract(new TimeSpan(0, 15, 0))}");
 Console.WriteLine($"Dayligth savings {DateTime.Now.IsDaylightSavingTime()}");
 
-Console.WriteLine("--------------------------------------------");
+ConsoleHelper.Seperate();
 
 
 // System.Numerics
