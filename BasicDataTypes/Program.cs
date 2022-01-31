@@ -48,36 +48,36 @@ ConsoleHelper.Seperate();
 
 // Numerical data types 
 
-Console.WriteLine("=> Max of int: {0}", int.MaxValue);
-Console.WriteLine("=> Min of int: {0}", int.MinValue);
-Console.WriteLine("=> Double epsilon : {0}", double.Epsilon);
-Console.WriteLine("=> Positive infinity : {0}", double.PositiveInfinity);
-Console.WriteLine("=> Negative infinity : {0}", double.NegativeInfinity);
+$"=> Max of int: {int.MaxValue}".Dump();
+$"=> Min of int: {int.MinValue}".Dump();
+$"=> Double epsilon : {double.Epsilon}".Dump();
+$"=> Positive infinity : {double.PositiveInfinity}".Dump();
+$"=> Negative infinity : {double.NegativeInfinity}".Dump();
 
 ConsoleHelper.Seperate();
 
 // Boolean 
 
-Console.WriteLine("=> Boolean False String : {0}", Boolean.FalseString);
-Console.WriteLine("=> Boolean False String : {0}", Boolean.TrueString);
+$"=> Boolean False String : {Boolean.FalseString}".Dump();
+$"=> Boolean False String : {Boolean.TrueString}".Dump();
 
 ConsoleHelper.Seperate();
 
 // Textual data types
 
-Console.WriteLine("=> Char IsDigit : {0}", char.IsDigit('e'));
-Console.WriteLine("=> Char IsLetter : {0}", char.IsLetter('2'));
-Console.WriteLine("=> Char IsWhiteSpace : {0}", char.IsWhiteSpace("asdasd a", 6));
-Console.WriteLine("=> Char IsPunctuation : {0}", char.IsPunctuation('?'));
+$"=> Char IsDigit : {char.IsDigit('e')}".Dump();
+$"=> Char IsLetter : {char.IsLetter('2')}".Dump();
+$"=> Char IsWhiteSpace : {char.IsWhiteSpace("asdasd a", 6)}".Dump();
+$"=> Char IsPunctuation : {char.IsPunctuation('?')}".Dump();
 
 ConsoleHelper.Seperate();
 
 // DateTime and TimeSpan
 
-Console.WriteLine($"Today is {DateTime.Now}");
-Console.WriteLine($"TimeSpan is {new TimeSpan(4, 30, 0)}");
-Console.WriteLine($"Subtract 15 from time span {new TimeSpan(4, 30, 0).Subtract(new TimeSpan(0, 15, 0))}");
-Console.WriteLine($"Dayligth savings {DateTime.Now.IsDaylightSavingTime()}");
+$"Today is {DateTime.Now}".Dump();
+$"TimeSpan is {new TimeSpan(4, 30, 0)}".Dump();
+$"Subtract 15 from time span {new TimeSpan(4, 30, 0).Subtract(new TimeSpan(0, 15, 0))}".Dump();
+$"Dayligth savings {DateTime.Now.IsDaylightSavingTime()}".Dump();
 
 ConsoleHelper.Seperate();
 
@@ -86,15 +86,15 @@ ConsoleHelper.Seperate();
 
 BigInteger massiveNumber = BigInteger.Parse("999999999999999999999999999999999999999999999999999");
 
-Console.WriteLine($"Value of big integer {massiveNumber}");
+$"Value of big integer {massiveNumber}".Dump();
 
 massiveNumber = massiveNumber + 1;
 
-Console.WriteLine($"Value of big integer {massiveNumber}");
-Console.WriteLine($"Is power two {massiveNumber.IsPowerOfTwo}");
-Console.WriteLine($"Is even {massiveNumber.IsEven}");
+$"Value of big integer {massiveNumber}".Dump();
+$"Is power two {massiveNumber.IsPowerOfTwo}".Dump();
+$"Is even {massiveNumber.IsEven}".Dump();
 
 
 BigInteger tooBig = BigInteger.Multiply(9999999999, BigInteger.Parse("999999999999999999999999999999999999999999999999999"));
 
-Console.WriteLine($"Too big number {tooBig}");
+$"Too big number {tooBig}".Dump();
