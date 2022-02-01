@@ -67,9 +67,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseOperations", "BitwiseOperations\BitwiseOperations.csproj", "{F809ECE1-A44A-4DA1-8B9D-E8F1F85C64DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structures", "Structures\Structures.csproj", "{83F585A6-43B3-47AA-B68E-AAFDF7A0A090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structures", "Structures\Structures.csproj", "{83F585A6-43B3-47AA-B68E-AAFDF7A0A090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadonlyStructs", "ReadonlyStructs\ReadonlyStructs.csproj", "{3F873284-F837-49BC-B9D0-C031713FD05E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadonlyStructs", "ReadonlyStructs\ReadonlyStructs.csproj", "{3F873284-F837-49BC-B9D0-C031713FD05E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefStructs", "RefStructs\RefStructs.csproj", "{D74B14C0-A28D-4097-8A92-B6918150EBEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{3F873284-F837-49BC-B9D0-C031713FD05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F873284-F837-49BC-B9D0-C031713FD05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F873284-F837-49BC-B9D0-C031713FD05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74B14C0-A28D-4097-8A92-B6918150EBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74B14C0-A28D-4097-8A92-B6918150EBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74B14C0-A28D-4097-8A92-B6918150EBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74B14C0-A28D-4097-8A92-B6918150EBEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
