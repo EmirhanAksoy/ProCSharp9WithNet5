@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structures", "Structures\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadonlyStructs", "ReadonlyStructs\ReadonlyStructs.csproj", "{3F873284-F837-49BC-B9D0-C031713FD05E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefStructs", "RefStructs\RefStructs.csproj", "{D74B14C0-A28D-4097-8A92-B6918150EBEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefStructs", "RefStructs\RefStructs.csproj", "{D74B14C0-A28D-4097-8A92-B6918150EBEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeReferenceType", "ValueTypeReferenceType\ValueTypeReferenceType.csproj", "{B4050DF1-CD7D-47F3-BCFF-3EB8F917F890}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{D74B14C0-A28D-4097-8A92-B6918150EBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D74B14C0-A28D-4097-8A92-B6918150EBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D74B14C0-A28D-4097-8A92-B6918150EBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4050DF1-CD7D-47F3-BCFF-3EB8F917F890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4050DF1-CD7D-47F3-BCFF-3EB8F917F890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4050DF1-CD7D-47F3-BCFF-3EB8F917F890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4050DF1-CD7D-47F3-BCFF-3EB8F917F890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
