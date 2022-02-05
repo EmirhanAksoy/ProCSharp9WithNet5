@@ -22,6 +22,8 @@ namespace RefStructs
             "We can use them as parameter,return type or local variable".Dump();
 
             PrintValues(ref keys);
+
+            keys.Dispose();
         }
 
         static void PrintValues(ref Keys keys)
@@ -47,6 +49,15 @@ namespace RefStructs
         {
             PublicKey = publicKey;
             PrivateKey = privateKey;
+        }
+         
+        /// <summary>
+        /// Ref sturcts cannot implement an interface and therefore IDisposable
+        /// To use disposable feature we can use public void Dispose method for read-only ref structs and ref structs
+        /// </summary>
+        public void Dispose()
+        {
+            "Disposed".Dump();
         }
     }
 
