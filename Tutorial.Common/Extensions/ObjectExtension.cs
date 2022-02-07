@@ -33,11 +33,11 @@ namespace Tutorial.Common.Extensions
         /// <summary>
         /// Get object memory address
         /// </summary>
-        /// <param name="obj"></param>
+        /// <param name="value"></param>
         /// <returns></returns>
-        public static string GetObjectAddress(this object obj)
+        public static string GetObjectAddress(this object value)
         {
-            GCHandle objHandle = GCHandle.Alloc(obj, GCHandleType.WeakTrackResurrection);
+            GCHandle objHandle = GCHandle.Alloc(value, GCHandleType.WeakTrackResurrection);
             var pointer = GCHandle.ToIntPtr(objHandle);
             objHandle.Free();
 
