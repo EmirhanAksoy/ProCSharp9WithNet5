@@ -35,7 +35,7 @@ namespace Tutorial.Common.Extensions
         /// </summary>
         /// <param name="obj"></param>
         /// <returns></returns>
-        public static string GetObjectAddress(object obj)
+        public static string GetObjectAddress(this object obj)
         {
             GCHandle objHandle = GCHandle.Alloc(obj, GCHandleType.WeakTrackResurrection);
             var pointer = GCHandle.ToIntPtr(objHandle);
