@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,6 +28,20 @@ namespace Tutorial.Common.Extensions
             Console.WriteLine();
             Console.WriteLine($"***     {value}     ***");
             Console.WriteLine();
+        }
+
+        /// <summary>
+        /// Get object memory address
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public static string GetObjectAddress(object obj)
+        {
+            GCHandle objHandle = GCHandle.Alloc(obj, GCHandleType.WeakTrackResurrection);
+            var pointer = GCHandle.ToIntPtr(objHandle);
+            objHandle.Free();
+
+            return "0x" + pointer.ToString("X");
         }
     }
 }
