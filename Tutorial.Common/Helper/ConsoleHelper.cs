@@ -22,7 +22,7 @@ namespace Tutorial.Common.Helper
         public static void Frame(object value,string title = "")
         {
             Console.WriteLine($"------------------------{title}-----------------------------");
-            Console.WriteLine($"{value}");
+            Console.WriteLine($"     {value}");
             Console.WriteLine($"------------------------{title}-----------------------------");
         }
     }
