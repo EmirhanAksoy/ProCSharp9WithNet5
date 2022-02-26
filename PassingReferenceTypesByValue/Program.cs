@@ -16,7 +16,7 @@ namespace PassingReferenceTypesByValue
 
             "When we pass the reference type with value method can change the state of the object but can't assing it again".Dump();
 
-            "Please check the below example".Dump();
+            "Please check the below for exact scenario".Dump();
 
             ConsoleHelper.Seperate();
             
@@ -35,6 +35,8 @@ namespace PassingReferenceTypesByValue
             oldPerson.Age.Dump();
 
             oldPerson.Name.Dump();
+
+            ReCreatePerson(oldPerson);
 
             "After reassing attemp of person".Dump();
 
