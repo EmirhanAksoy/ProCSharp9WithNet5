@@ -73,9 +73,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadonlyStructs", "Readonly
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefStructs", "RefStructs\RefStructs.csproj", "{D74B14C0-A28D-4097-8A92-B6918150EBEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeReferenceType", "ValueTypeReferenceType\ValueTypeReferenceType.csproj", "{B4050DF1-CD7D-47F3-BCFF-3EB8F917F890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTypeReferenceType", "ValueTypeReferenceType\ValueTypeReferenceType.csproj", "{B4050DF1-CD7D-47F3-BCFF-3EB8F917F890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypesContainingReferenceTypes", "ValueTypesContainingReferenceTypes\ValueTypesContainingReferenceTypes.csproj", "{52D5AEB5-D03D-4378-86A6-D038D12FB6D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTypesContainingReferenceTypes", "ValueTypesContainingReferenceTypes\ValueTypesContainingReferenceTypes.csproj", "{52D5AEB5-D03D-4378-86A6-D038D12FB6D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingReferenceTypesByValue", "PassingReferenceTypesByValue\PassingReferenceTypesByValue.csproj", "{92F5CEED-C567-4208-8C22-ECA3D1C7BD0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,10 @@ Global
 		{52D5AEB5-D03D-4378-86A6-D038D12FB6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D5AEB5-D03D-4378-86A6-D038D12FB6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D5AEB5-D03D-4378-86A6-D038D12FB6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F5CEED-C567-4208-8C22-ECA3D1C7BD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F5CEED-C567-4208-8C22-ECA3D1C7BD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F5CEED-C567-4208-8C22-ECA3D1C7BD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F5CEED-C567-4208-8C22-ECA3D1C7BD0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
