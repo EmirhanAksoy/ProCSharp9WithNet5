@@ -79,6 +79,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTypesContainingReferen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingReferenceTypesByValue", "PassingReferenceTypesByValue\PassingReferenceTypesByValue.csproj", "{92F5CEED-C567-4208-8C22-ECA3D1C7BD0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingReferenceTypesByReference", "PassingReferenceTypesByReference\PassingReferenceTypesByReference.csproj", "{93D5B5C9-0F37-44F9-95F4-D877220FAD4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{92F5CEED-C567-4208-8C22-ECA3D1C7BD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F5CEED-C567-4208-8C22-ECA3D1C7BD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F5CEED-C567-4208-8C22-ECA3D1C7BD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D5B5C9-0F37-44F9-95F4-D877220FAD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D5B5C9-0F37-44F9-95F4-D877220FAD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D5B5C9-0F37-44F9-95F4-D877220FAD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D5B5C9-0F37-44F9-95F4-D877220FAD4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
