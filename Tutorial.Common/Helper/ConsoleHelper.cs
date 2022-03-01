@@ -21,9 +21,9 @@ namespace Tutorial.Common.Helper
         /// <param name="title"></param>
         public static void Frame(object value,string title = "")
         {
-            Console.WriteLine($"------------------------{title}-----------------------------");
-            Console.WriteLine($"     {value}");
-            Console.WriteLine($"------------------------{title}-----------------------------");
+            Console.WriteLine($"     ------------------------{title}-----------------------------");
+            Console.WriteLine($"          {value}");
+            Console.WriteLine($"     ------------------------{title}-----------------------------");
         }
     }
 }
