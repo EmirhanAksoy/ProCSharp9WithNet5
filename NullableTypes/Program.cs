@@ -1,5 +1,6 @@
 ﻿using System;
 using Tutorial.Common.Extensions;
+using Tutorial.Common.Helper;
 
 namespace NullableTypes
 {
@@ -29,6 +30,8 @@ namespace NullableTypes
             bool? nullableBool = null;
             char? nullableChar = 'a';
             int?[] arrayOfNullableInts = new int?[10];
+
+            ConsoleHelper.Seperate();
 
             "The ? suffix notation is a shorthand for creating an instance of the generic System.Nullable<T> structure type.".Dump();
 
