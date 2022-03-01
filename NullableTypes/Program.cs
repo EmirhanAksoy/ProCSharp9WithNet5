@@ -31,6 +31,11 @@ namespace NullableTypes
             char? nullableChar = 'a';
             int?[] arrayOfNullableInts = new int?[10];
 
+            nullableInt.Dump();
+            nullableDouble.Dump();
+            nullableBool.Dump();
+            nullableChar.Dump();
+
             ConsoleHelper.Seperate();
 
             "The ? suffix notation is a shorthand for creating an instance of the generic System.Nullable<T> structure type.".Dump();
@@ -41,6 +46,13 @@ namespace NullableTypes
             Nullable<bool> _nullableBool = null;
             Nullable<char> _nullableChar = 'a';
             Nullable<int>[] _arrayOfNullableInts = new Nullable<int>[10];
+
+            _nullableInt.Dump();
+            _nullableDouble.Dump();
+            _nullableChar.Dump();
+            _nullableBool.Dump();
+
+            (_nullableInt.GetType() == nullableInt.GetType()).Dump();
         }
     }
 }
