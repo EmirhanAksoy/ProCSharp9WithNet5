@@ -8,7 +8,9 @@ namespace NullableTypes
     {
         static void Main(string[] args)
         {
-            "Nullable Type".DumpAsTitle();
+            "Nullable Value/Reference Type".DumpAsTitle();
+
+            ConsoleHelper.Frame("Nullable Value Type");
 
             "Value types can never be assigned the value of null, as that is used to establish an empty object reference.".Dump();
 
@@ -36,8 +38,6 @@ namespace NullableTypes
             nullableBool.Dump();
             nullableChar.Dump();
 
-            ConsoleHelper.Seperate();
-
             "The ? suffix notation is a shorthand for creating an instance of the generic System.Nullable<T> structure type.".Dump();
 
             // Define some local nullable types using Nullable<T>.
@@ -53,6 +53,11 @@ namespace NullableTypes
             _nullableBool.Dump();
 
             (_nullableInt.GetType() == nullableInt.GetType()).Dump();
+
+            ConsoleHelper.Frame("Nullable Reference Type");
+
+
+
         }
     }
 }
