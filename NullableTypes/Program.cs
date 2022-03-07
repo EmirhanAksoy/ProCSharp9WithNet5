@@ -56,8 +56,57 @@ namespace NullableTypes
 
             ConsoleHelper.Frame("Nullable Reference Type");
 
+            @"The project file setting makes the entire project a nullable context. The nullable context allows to use the nullable annotation (?).".Dump();
+            
+            "We can set nullable context option as Enable(default),Warnings,Annotations and Disable".Dump();
+
+            "ENABLE:Nullable annotations are enabled, and nullable warnings are enabled.".Dump();
+            "WARNINGS:Nullable annotations are disabled, and nullable warnings are enabled.".Dump();
+            "ANNOTATIONS:Nullable annotations are enabled, and nullable warnings are disabled.".Dump();
+            "DISABLED:Nullable annotations are disabled, and nullable warnings are disabled.".Dump();
+
+            "Nullable reference types follow many of the same rules as nullable value types.".Dump();
+
+            @"Nullable reference types use the same symbol (?) to indicate that they are nullable. However, this is not
+              a shorthand for using System.Nullable<T>, as only value types can be used in place of T.".Dump();
+
+           
+
+            "If reference type is not nullable, code generates warning".Dump();
+
+            Person? person = null;
+            Person person1 = new();
+            string value = string.Empty;
+
+            //Warning CS8600 Converting null literal or possible null value to non-nullable type
+            person1 = person;
 
 
+            // We can disable nullable context warning
+            #pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
+            person1 = person;
+            #pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
+
+            // Also we can disable nullable context which is set  at the project level
+
+            person1 = null;
+            value = null;
+
+            #nullable disable
+            person1 = null;
+            value = null;
+            #nullable restore
+
+            @"As a final note, the nullable reference types do not have the HasValue and Value properties, as those are
+            supplied by System.Nullable<T>.".Dump();
+
+        }
+
+        public class Person
+        {
+            public string Id { get; set; }
+
+            public string Username { get; set; }
         }
     }
 }
