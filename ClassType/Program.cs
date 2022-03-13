@@ -23,6 +23,19 @@ namespace ClassType
                 waterTank.PrintCurrentState();
                 ConsoleHelper.Seperate();
             }
+
+            "Objects must be allocated into memory using the new keyword".Dump();
+
+
+            // We can allocate with single line 
+            WaterTank waterTank1 = new();
+
+            // Or in seperated lines
+            WaterTank waterTank2; // deafult value is null
+
+            $"waterTank2 is null at the begining".Dump();
+
+            waterTank2 = new();
         }
 
         class WaterTank
