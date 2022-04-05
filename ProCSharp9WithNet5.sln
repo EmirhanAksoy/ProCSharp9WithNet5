@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisKeyword", "ThisKeyword\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainingConstructorCalls", "ChainingConstructorCalls\ChainingConstructorCalls.csproj", "{B8FE38D8-8C27-4D2B-A327-F97A05734938}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalAndNamedArgumentsWithConstructor", "OptionalAndNamedArgumentsWithConstructor\OptionalAndNamedArgumentsWithConstructor.csproj", "{E7B2A896-25B7-4FF1-B13D-E3E123BDA698}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -295,6 +297,10 @@ Global
 		{B8FE38D8-8C27-4D2B-A327-F97A05734938}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8FE38D8-8C27-4D2B-A327-F97A05734938}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8FE38D8-8C27-4D2B-A327-F97A05734938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B2A896-25B7-4FF1-B13D-E3E123BDA698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B2A896-25B7-4FF1-B13D-E3E123BDA698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B2A896-25B7-4FF1-B13D-E3E123BDA698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B2A896-25B7-4FF1-B13D-E3E123BDA698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -305,6 +311,7 @@ Global
 		{4B0B0AB8-9AF2-4FBE-B495-D8622A07E612} = {2F3948E3-D573-4B85-BC73-43EE94624B88}
 		{315D9FAF-D107-4D5E-827E-B4E7158E2F28} = {2F3948E3-D573-4B85-BC73-43EE94624B88}
 		{B8FE38D8-8C27-4D2B-A327-F97A05734938} = {2F3948E3-D573-4B85-BC73-43EE94624B88}
+		{E7B2A896-25B7-4FF1-B13D-E3E123BDA698} = {2F3948E3-D573-4B85-BC73-43EE94624B88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C78AE55C-E75A-49AD-9DD0-70246EF83BFE}
